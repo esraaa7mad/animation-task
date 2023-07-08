@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+.div1{
+    width: 130px;
+    height: 100px;
+    top: 0;
+    background-image: url(../images/0.jpg);
+    background-size: cover;
+    animation-name: anime;
+    animation-duration: 2s;
+    position: absolute;
+    animation-duration: alternate;
+}
+@keyframes anime{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 1180px;
+    }
+}
+.div3{
+    width: 130px;
+    height: 100px;
+    top: 200px;
+    background-image: url(../images/0.jpg);
+    background-size: cover;
+    animation-name: anime2;
+    animation-duration: 2s;
+    position: absolute;
+    animation-delay: 4s;
+}
+@keyframes anime2{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 1180px;
+    }
+}
+.div5{
+    width: 130px;
+    height: 100px;
+    top: 400px;
+    background-image: url(../images/0.jpg);
+    background-size: cover;
+    position: absolute;
+    animation-name: anime3;
+    animation-duration: 2s;
+    animation-delay: 8s;
+}
+@keyframes anime3{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 1180px;
+    }
+}
+.parent{
+    position: relative;
+}
+.div2{
+    width: 100px;
+    height: 100px;
+    right: 0;
+    top: 100px;
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    position: absolute;
+    animation-name: anime4;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-direction: reverse;
+}
+@keyframes anime4{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 1210px;
+    }
+}
+.div4{
+    width: 100px;
+    height: 100px;
+    top: 300px;
+    right: 0;
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    position: absolute;
+    animation-name: anime5;
+    animation-duration: 2s;
+    animation-delay: 6s;
+    animation-direction: reverse;
+    
+}
+@keyframes anime5{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 1210px;
+    }
+}
+.div6{
+    width: 100px;
+    height: 100px;
+    top: 500px;
+    right: 0;
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    position: absolute;
+    animation-name: anime6;
+    animation-duration: 2s;
+    animation-delay: 10s;
+    animation-direction: reverse;
+}
+@keyframes anime6{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 1210px;
+    }
+}
